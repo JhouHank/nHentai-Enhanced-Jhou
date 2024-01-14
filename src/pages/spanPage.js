@@ -12,15 +12,16 @@ export function spanPage() {
   $('.alert, .announcement').remove()
 
   // 翻譯
-  // translatePlus(['nav'], json.NewSpanPage)
+  translatePlus(['nav'], json.NewSpanPage)
 
   // 翻譯 標籤
-  // tagsTranslator($('#content > h1 > a > .name'))
+  tagsTranslator($('#content > h1 > a > .name'))
 
   // changeNumPosition('span')
 
   // 獲取當前頁數
-  currentPageNum = location.href.split('=').length == 1 ? 1 : Number(link[1])
+  // currentPageNum = location.href.split('=').length == 1 ? 1 : Number(link[1])
+  currentPageNum = 1
 
   // ajax
   // scrollEventAjax('span')
