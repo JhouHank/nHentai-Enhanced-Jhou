@@ -1,0 +1,28 @@
+{
+  "name": "nhentai-enhanced-jhou",
+  "version": "0.0.1",
+  "description": "",
+  "main": "/src/main.js",
+  "scripts": {
+    "dev": "webpack -w",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhouHank/nHentai-Enhanced-Jhou.git"
+  },
+  "author": "NekoChan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhouHank/nHentai-Enhanced-Jhou/issues"
+  },
+  "homepage": "https://github.com/JhouHank/nHentai-Enhanced-Jhou",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-userscript": "^2.5.8"
+  },
+  "dependencies": {
+    "prettier": "^2.5.0"
+  }
+}
