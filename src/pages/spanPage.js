@@ -15,7 +15,7 @@ export function spanPage() {
   // translatePlus(['nav'], json.NewSpanPage)
 
   // 翻譯 標籤
-  tagsTranslator($('#content > h1 > a > .name'))
+  // tagsTranslator($('#content > h1 > a > .name'))
 
   // changeNumPosition('span')
 
