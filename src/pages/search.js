@@ -9,10 +9,10 @@ export function search() {
   // galleryBlank()
 
   // 翻譯
-  translatePlus(['nav'], json.NewSpanPage)
+  // translatePlus(['nav'], json.NewSpanPage)
 
   // 翻譯 標籤
-  tagsTranslator($('#content > h1 > a > .name'))
+  // tagsTranslator($('#content > h1 > a > .name'))
 
   ajaxPage ? ajaxPageFunc() : debugConsole('自動翻頁 已關閉')
 
