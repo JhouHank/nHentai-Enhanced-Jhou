@@ -1,5 +1,5 @@
 import { ajaxPage } from '../config'
-import { currentPageNum } from '../variable'
+import { json, currentPageNum } from '../variable'
 import { debugConsole, galleryBlank, changeNumPosition, scrollEventAjax, translatePlus, tagsTranslator } from '../utils'
 
 export function search() {
