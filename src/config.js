@@ -16,7 +16,12 @@ export const $ = window.$,
   enableWidgetBot = false,
   // 選單 - 名稱: '連結'
   custom = {
-    menu: [{ 正太控: '/tag/shotacon/' }, { 中文: '/language/chinese/' }],
+    menu: [
+      { 正太控: '/tag/shotacon/' },
+      { 百合: '/tag/yuri/' },
+      { 後宮: '/tag/harem/' },
+      { 中文: '/language/chinese/' },
+    ],
   },
   // 開發模式
   debug = false
